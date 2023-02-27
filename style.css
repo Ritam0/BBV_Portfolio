@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:yellow;
+    width:20vw;  
+    height: auto;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size:30px;
+    padding: 35px;
+}
+.main{
+    /*background-color: crimson;*/
+    width:80vw;
+}
+.container{
+    display:flex;
+}
+.infoContainer{
+   /* background-color:yellow;*/
+    height:58vh;
+    width:80vw;
+    margin:144px auto;
+    display:flex;
+    justify-content:space-around;
+}
+.devInfo{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+.Hello{
+    font-size: 45px;
+}
+.Name{
+    font-size: 35px;
+}
+.About{
+    font-size: 15px;
+}
+.Buttons{
+    margin-top: 34px;
+}
+.buttons button{
+    padding:5px 14px;
+    border-radius:15px;
+    color:white;
+    background-color:blue;
+    font-weight:bold;
+    font-size: 20px;
+    margin:3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devPic img{
+    height:58vh;
+}
+.contactform h1{
+    text-align:center;
+}
+.contactform form div{
+    padding:15px;
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+}
+.contactform form div{
+    width :16vw;
+    border-radius:5px;
+    margin: 6px 0;
+    padding:3px;
+}
+#emailhelp{
+    font-size:16px;
+    color: black;
+    margin:0 5px;
+}
+/* .form-check{
+    fl
+} */
+.intro-background{
+    background: #afffb8;
+}
